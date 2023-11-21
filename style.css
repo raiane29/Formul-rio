@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 194, 194);
+    transition: background-code 1s, color 1s;
+}
+
+.dark-mode{
+    background-color: black;
+    color: rgb(255, 255, 255)
+}
+
+#titulo{
+    text-align: center;
+}
+
+section{
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: rgb(255, 158, 158);
+    border-radius: 10px;
+    border-style:solid;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+input{
+    margin-bottom: 15px;
+    background-color:rgb(255, 227, 227);
+    border-radius: 8px;
+}
+
+button{
+   text-align: center;
+   margin-top: 10px;
+   border-radius: 10px;
+   background-color:rgb(255, 194, 194);
+   
+}
+
+
